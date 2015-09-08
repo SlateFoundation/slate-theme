@@ -1,7 +1,5 @@
 .x-tree-elbow-img {
-    visibility: hidden;
-
-    &:first-child {
+    &:first-child.x-tree-elbow-empty {
         width: 8px;
     }
 }
