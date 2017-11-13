@@ -37,4 +37,10 @@
     &:visited {
         color: $color;
     }
+
+    &.selected {
+        background-color: tint($base-color, 40%);
+        color: white;
+        font-weight: bold;
+    }
 }
